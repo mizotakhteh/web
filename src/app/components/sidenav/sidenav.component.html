@@ -1,0 +1,30 @@
+
+<mat-card class="user-info-area">
+  <mat-card-header>
+    <img mat-card-avatar>
+    <mat-card-title></mat-card-title>
+    <mat-card-subtitle></mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <br>
+    <span>Bio</span>
+    <p>
+      A Java/Spring/Web developer focusing on microservices, Kubernetes, Istio, & Rust.
+    </p>
+  </mat-card-content>
+</mat-card>
+
+<mat-nav-list role="navigation">
+  <a mat-list-item routerLink="/home" routerLinkActive="active">
+    <mat-icon mat-list-icon>home</mat-icon>
+    <div class="nav-caption" mat-line>Home</div>
+  </a>
+  <a mat-list-item routerLink="/setting" routerLinkActive="active">
+    <mat-icon mat-list-icon>settings</mat-icon>
+    <div class="nav-caption" mat-line>Setting</div>
+  </a>
+  <a mat-list-item routerLink="/guide" routerLinkActive="active">
+    <mat-icon mat-list-icon>help_outline</mat-icon>
+    <div class="nav-caption" mat-line>Guide</div>
+  </a>
+</mat-nav-list>
